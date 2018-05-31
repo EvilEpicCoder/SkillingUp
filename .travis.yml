@@ -18,12 +18,14 @@
 #   global:
 #     secure: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDdGaV4lnLljPZuEbUAfOVHK6kajyob6Z5aOGIfaHl0i7Y+l3qaTjtNV8+ZRYyilxgk3hb+3hB5YT7+EKPh8ccBp3p+GL75ziXNipJvu7wgX0UeHVeuYY6QExPsbVEtfSm2VG0Rbn1W7nyqNtJ6ngHtRbOBVOH9Yl7ISl0dXdRjbKayfE82+8WopDiW4nbGeD+NU1dJoN6o1WGzi+HwhGdDfhst99/W0zpv8Fbiw2QqRUQwEWzpYwCeesQIpcFPIEHv1PzXxhErD91qsbOgT1Sdc69OqYzzHUbVeSeFhbtdur2RRSwDK4jXY7mdGpslt5dN6ggboaM+xrcasFeYQpKDWNhqnM6G1Xk3/9848t3gNmrQPdK6Q9wNYDoJs/QQPcRTrEdQnVBQRuxwwstKsgcDyL8f8AInRmncfyc/A8Cze1iryWZvbF8wDjAujNDXjowWH4VhTzTenntNh9Hrj+9LFwb6k3HfSNjhrBlId/sPCfZ64DD+YtGcMLxQvB58nWI8dPlh2HRVoZIEYxi4KokJ1qyyuWgMzIxHCqCzJDl/BNjXg1iu0I8H4rjplixE9cozpQ3YMAIztyDJPnPYwG/wmSDddg57LBAKUba/YAWR2I5qVOC/DkkiN5pKiniho4eZJ8Wov0+MR1SDcHde/qXavKVRw/iVepO0GvLiFf3Vpw== 1st.elixile@gmail.com
 
-language: node_js
+# language: node_js
+# node_js:
+  - "5"
 branches:
   only:
   - master
 before_install:
-- npm install -g hexo
 - npm install
+- npm install -g hexo
 install:
 - hexo generate
