@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "5"
+  - "10"
 branches:
   only:
   - master
@@ -11,10 +11,10 @@ before_script:
 - git config --global user.name 'EvilEpicCoder'
 - git config --global user.email '1st.elixile@gmail.com'
 - sed -i'' "s~git@github.com:evilepiccoder/HexoHelloWorld.git~https://${GH_TOKEN}:x-oauth-basic@github.com/evilepiccoder/HexoHelloWorld/.git~" _config.yml
+
+- sed -i "s/cc5781fb0cde5f46fc23f14ccc30e377d5774a4c/${cc5781fb0cde5f46fc23f14ccc30e377d5774a4c}/" _config.yml
 install:
 - npm run generate
 script:
+- npm run build
 - npm run deploy
-env:
-  global:
-    secure:
