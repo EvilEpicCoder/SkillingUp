@@ -12,7 +12,7 @@ before_script:
 - git config --global user.email '1st.elixile@gmail.com'
 # - sed -i'' "s~git@github.com:evilepiccoder/HexoHelloWorld.git~https://${4c15e2946f20f1f64426e449c1090f89827e8b1a}:x-oauth-basic@github.com/evilepiccoder/HexoHelloWorld/.git~" _config.yml
 
-- sed -i "s/0008876e90251cb3b5acdcade3652292ae49c864/${0008876e90251cb3b5acdcade3652292ae49c864}/" _config.yml
+- sed -i "s/305f2e4c5cd371eef548aaf535b67743907425fc/${305f2e4c5cd371eef548aaf535b67743907425fc}/" _config.yml
 install:
 - npm run generate
 script:
@@ -22,7 +22,7 @@ script:
 deploy:
   provider: pages
   skip-cleanup: true
-  github-token: https://c25ce6da4513ea6a281d834d6a9644dff30d47c5@github.com/EvilEpicCoder/HexoHelloWorld.git  # Set in the settings page of your repository, as a secure variable
+  github-token: https://305f2e4c5cd371eef548aaf535b67743907425fc@github.com/EvilEpicCoder/HexoHelloWorld.git  # Set in the settings page of your repository, as a secure variable
   keep-history: true
   on:
     branch: master
