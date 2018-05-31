@@ -16,4 +16,4 @@ script:
 - npm run deploy
 env:
   global:
-    secure: yMMi8a7XNJTMPD_YkQTaoQ
+    secure: fsYO96363oEzxaG31uAO7Col7KBxZJTTK/KnVeQpF80
