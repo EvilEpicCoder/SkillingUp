@@ -1,9 +1,10 @@
 language: node_js
 
 node_js:
-  - "0.10"
+  - "8.11.22"
 
 before_install:
+  chmod +x ./node_modules/.bin/hexo
   # Decrypt the private key
   #- openssl aes-256-cbc -K $encrypted_06b8e90ac19b_key -iv $encrypted_06b8e90ac19b_iv -in .travis/ssh_key.enc -out ~/.ssh/id_rsa -d
   # Set the permission of the key
