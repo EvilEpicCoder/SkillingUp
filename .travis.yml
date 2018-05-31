@@ -9,7 +9,7 @@ before_install:
 before_script:
 - git config --global user.name 'EvilEpicCoder'
 - git config --global user.email '1st.elixile@gmail.com'
-- sed -i'' "s~git@github.com:evilepiccoder/HexoHelloWorld.git~https://${GH_TOKEN}:x-oauth-basic@github.com/evilepiccoder/HexoHelloWorld/.git~" _config.yml
+- sed -i'' "s~git@github.com:evilepiccoder/blog.git~https://${GH_TOKEN}:x-oauth-basic@github.com/evilepiccoder/blog/.git~" _config.yml
 install:
 - npm run generate
 script:
