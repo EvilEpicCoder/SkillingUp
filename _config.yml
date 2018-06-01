@@ -80,6 +80,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/EvilEpicCoder/m4sterbunny.github.io.git
+  repo: https://github.com/m4sterbunny/m4sterbunny.github.io.git
   branch: master
   message: update
