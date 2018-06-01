@@ -6,14 +6,14 @@
 title: Hexo test site
 subtitle: Super simple test site
 description:
-author: Igor Gavelyuk
+author: None
 language: EN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://evilepiccoder.github.io/blog/
-root: /blog/
+url: http://m4sterbunny.github.io/
+root: /
 # url: http://localhost/:4000
 # root: /blog/
 permalink: :year/:month/:day/:title/
@@ -80,6 +80,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/EvilEpicCoder/blog.git
+  repo: https://github.com/EvilEpicCoder/m4sterbunny.github.io.git
   branch: master
   message: update
