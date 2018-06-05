@@ -11,6 +11,8 @@ A fast, simple & powerful blog framework, powered by [Node.js](http://nodejs.org
 
 #### [Create new pages ](../master/NewPage.md)
 #### [Full manual from scratches read here ](../master/FromScratch.md)
+#### [Example1](https://evilepiccoder.github.io/blog/)
+#### [Example2 (soon will be added)](https://m4sterbunny.github.io.git/)
 
 ## Overwiew
 * Fork repository
