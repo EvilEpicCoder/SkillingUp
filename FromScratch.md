@@ -64,7 +64,7 @@ You can stop server.
 ## Generate static files for uploading to server
 Edit `_config yml`
 ```ruby
-15 # url: http://yoursite.com/child
+15 # url: http://yoursite.com/child/
 16 # root: /child/
 17 url: http://yoursite.com/
 18 root: /
@@ -130,6 +130,7 @@ Edit `_config yml`
 ```ruby
 81 deploy:
 82  type: git
+// repo: https://github.com/USERNAME/m4sterbunny.github.io.GIT <- Will be uploaded public  folder (created after use `hexo generate`) to this repository
 83  repo: https://github.com/EvilEpicCoder/m4sterbunny.github.io.git
 84  branch: master
 84  message: update

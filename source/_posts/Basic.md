@@ -4,7 +4,7 @@ date: 2018-06-04 20:01:48
 tags: basic creation and posting
 ---
 # m4sterbunny.github.io
-#### [About ](/blog/About/index.html)
+#### [About ](/About/index.html)
 A fast, simple & powerful blog, powered by [Node.js](http://nodejs.org).
 
 ## Features
@@ -13,8 +13,8 @@ A fast, simple & powerful blog, powered by [Node.js](http://nodejs.org).
 * Support for GitHub Flavored Markdown plugins
 * One-command deploy to GitHub Pages
 
-#### [Create new pages ](/blog/2018/06/04/page/index.html)
-#### [Full manual from scratches read here ](/blog/2018/06/04/scratch/index.html)
+#### [Create new pages ](/2018/06/04/page/index.html)
+#### [Full manual from scratches read here ](/2018/06/04/scratch/index.html)
 
 ## Overwiew
 * Fork repository
