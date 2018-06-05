@@ -9,8 +9,8 @@ A fast, simple & powerful blog framework, powered by [Node.js](http://nodejs.org
 * Support for GitHub Flavored Markdown plugins
 * One-command deploy to GitHub Pages
 
-#### [Create new pages ](../blob/master/NewPage.md)
-#### [Full manual from scratches read here ](../blob/master/FromScratch.md)
+#### [Create new pages ](../master/NewPage.md)
+#### [Full manual from scratches read here ](../master/FromScratch.md)
 
 ## Overwiew
 * Fork repository
@@ -28,7 +28,7 @@ A fast, simple & powerful blog framework, powered by [Node.js](http://nodejs.org
 1 https://github.com/m4sterbunny/m4sterbunny.github.io.git
 2 https://github.com/m4sterbunny/SkillingUp.git
 ```
- ![fork repository](./ImagesForSiteInstall/fork.png "fork it")
+ ![fork repository](../master/ImagesForSiteInstall/fork.png "fork it")
  * Start working with it
  * use `run.sh` (in windows just click twice) it will update
  ``` bash
@@ -36,8 +36,8 @@ A fast, simple & powerful blog framework, powered by [Node.js](http://nodejs.org
  ```
  * Push as - pull request
  * admin `m4sterbunny` must review push and make merge or refuse or users must have admin rights.
- ![use pull](./ImagesForSiteInstall/merge1.png "Pull to repo")
- ![use pull](./ImagesForSiteInstall/merge2.png "Pull to repo")
+ ![use pull](../master/ImagesForSiteInstall/merge1.png "Pull to repo")
+ ![use pull](../master/ImagesForSiteInstall/merge2.png "Pull to repo")
 
 
 ## More Information

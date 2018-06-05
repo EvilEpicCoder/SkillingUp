@@ -13,3 +13,9 @@
 * Pages
  * Menu like pages
  `hexo new page About`
+ ### Examples:
+ This is path in console where it create new page
+ ![create new pages](../master/ImagesForSiteInstall/create new pages.png "create new page")
+ `hexo generate`
+ ![create new pages](../master/ImagesForSiteInstall/create new pages.png "create new page")
+ Going in this folder and putting resources.
