@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://m4sterbunny.github.io/
+url: https://mycodingjourney.space/
 root: /
 # url: http://localhost/:4000
 # root: /blog/
@@ -80,6 +80,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/m4sterbunny/m4sterbunny.github.io.git
+  repo: https://github.com/m4sterbunny/m4sterbunny.github.io-codingjourney.git
   branch: master
   message: update
