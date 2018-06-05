@@ -5,7 +5,7 @@ date: 2018-06-04 19:37:45
 tags: hexo new page pages generate
 ---
 ## Basics
-### 3 tipes of Pages:
+### 3 types of Pages:
 * Post
  * Post is like news
  `hexo new Hello world!`
